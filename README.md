@@ -76,7 +76,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [Cinder](https://libcinder.org/) - A community-developed, free and open source library for professional-quality creative coding. [BSD]
 * [Cxxomfort](http://ryan.gulix.cl/fossil.cgi/cxxomfort/) - A small, header-only library that backports to C++03 some of the nifty C++11 goodies. [MIT]
 * [Dlib](http://dlib.net/) :zap: - A general purpose cross-platform C++ library designed using contract programming and modern C++ techniques. [Boost]
-* [EASTL](https://github.com/paulhodge/EASTL) - Public part of EA-STL. [BSD]
+* [EASTL](https://github.com/electronicarts/EASTL) - Electronic Arts Standard Template Library. [BSD]
 * [ffead-cpp](https://github.com/sumeetchhetri/ffead-cpp) - Framework for Enterprise Application Development. [Apache2]
 * [Folly](https://github.com/facebook/folly) - An open-source C++ library developed and used at Facebook. [Apache2]
 * [JUCE](https://github.com/julianstorer/JUCE) - An all-encompassing C++ class library for developing cross-platform software. [Core-Module: ISC, Rest: GPL2/GPL3/Commercial] [website](http://www.juce.com/)
@@ -151,7 +151,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [bzip2](http://www.bzip.org/) - A freely available, patent free, high-quality data compressor. [BSD]
 * [doboz](https://bitbucket.org/attila_afra/doboz/overview) - Compression library with very fast decompression. [zlib]
 * [PhysicsFS](https://icculus.org/physfs/) - A library to provide abstract access to various archives. It is intended for use in video games, and the design was somewhat inspired by Quake 3's file subsystem. [zlib]
-* [KArchive](https://projects.kde.org/projects/frameworks/karchive) - A library for creating, reading, writing and manipulating file archives like zip and tar. It also provides transparent compression and decompression of data, using formats like gzip, via a subclass of QIODevice. [LGPL]
+* [KArchive](https://quickgit.kde.org/?p=karchive.git) - A library for creating, reading, writing and manipulating file archives like zip and tar. It also provides transparent compression and decompression of data, using formats like gzip, via a subclass of QIODevice. [LGPL]
 * [LZ4](https://code.google.com/p/lz4/) - Extremely Fast Compression algorithm. [BSD]
 * [LZHAM](https://code.google.com/p/lzham/) - Lossless data compression library with a compression ratio similar to LZMA but with much faster decompression. [BSD]
 * [LZMA](http://www.7-zip.org/sdk.html) :zap: - The default and general compression method of 7z format. [PublicDomain]
@@ -223,6 +223,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [redis3m](https://github.com/luca3m/redis3m) - Wrapper of hiredis with clean C++ interface, supporting sentinel and ready to use patterns. [Apache2]
 * [RocksDB](https://github.com/facebook/rocksdb) - Embedded key-value store for fast storage from facebook. [BSD]
 * [SQLite](http://www.sqlite.org/) - A completely embedded, full-featured relational database in a few 100k that you can include right into your project. [PublicDomain]
+* [upscaledb](https://upscaledb.com) - An embedded "typed" key/value store with a built-in query interface. [GPLv3]
 
 ## Debug
 *Debugging Libraries, Memory Leak and Resource Leak Detection, Unit Testing*
@@ -255,7 +256,6 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [GamePlay](https://github.com/gameplay3d/GamePlay) - A cross-platform native C++ game framework for creating 2D/3D mobile and desktop games. [Apache2]
 * [Godot](https://github.com/godotengine/godot) - A fully featured, open source, MIT licensed, game engine. [MIT]
 * [Grit](http://www.gritengine.com/) - Community project to build a free game engine for implementing open world 3D games. [MIT]
-* [Irrlicht](http://irrlicht.sourceforge.net/) - A high performance realtime 3D engine written in C++. [zlib]
 * [Oxygine](http://oxygine.org/) - A cross-platform 2D C++ game engine. [MIT]
 * [Panda3D](https://github.com/panda3d/panda3d) - A game engine, a framework for 3D rendering and game development for Python and C++ programs. [Modified BSD] [website](https://www.panda3d.org/)
 * [Polycode](https://github.com/ivansafrin/Polycode) - A cross-platform framework for creative code in C++ (with Lua bindings). [MIT] [website](http://polycode.org/)
@@ -287,6 +287,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [Cairo](http://www.cairographics.org/) - A 2D graphics library with support for multiple output devices. [LGPL2 or Mozilla MPL]
 * [GLFW](https://github.com/glfw/glfw) - A simple, cross-platform OpenGL wrangling library. [zlib/libpng]
 * [Horde3D](https://github.com/horde3d/Horde3D) - A small 3D rendering and animation engine. [EPL]
+* [Irrlicht](http://irrlicht.sourceforge.net/) - A high performance realtime 3D engine written in C++. [zlib]
 * [magnum](https://github.com/mosra/magnum) - C++11 and OpenGL 2D/3D graphics engine. [MIT] [website](http://mosra.cz/blog/magnum.php)
 * [Ogre 3D](http://www.ogre3d.org/) :zap: - A scene-oriented, real-time, flexible 3D rendering engine (as opposed to a game engine) written in C++. [MIT]
 * [OpenSceneGraph](http://www.openscenegraph.org/) - An open source high performance 3D graphics toolkit. [OSGPL]
@@ -376,6 +377,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 
 * [Caffe](https://github.com/BVLC/caffe) - A fast framework for neural networks. [BSD]
 * [CCV](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library. [BSD]
+* [Fido](https://github.com/FidoProject/Fido) - A highly-modular C++ machine learning library for embedded electronics and robotics. [MIT] [website](http://fidoproject.github.io/)
 * [MeTA](https://github.com/meta-toolkit/meta) - A modern C++ data sciences toolkit. [MIT] [website](https://meta-toolkit.org/)
 * [Minerva](https://github.com/dmlc/minerva) - A fast and flexible system for deep learning. [Apache2]
 * [mlpack](http://www.mlpack.org/) - A scalable c++ machine learning library. [LGPLv3]
@@ -417,6 +419,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html) - An OO Network Programming Toolkit in C++. [?MIT?]
 * [Boost.Asio](http://think-async.com/) :zap: - A cross-platform C++ library for network and low-level I/O programming. [Boost]
 * [C++ REST SDK](https://github.com/Microsoft/cpprestsdk) - C++ REST SDK (previously named Casablanca). [Apache2]
+* [Restbed](https://github.com/corvusoft/restbed) - C++11 Asynchronous RESTful framework. [AGPL]
 * [cpp-netlib](http://cpp-netlib.org/) - A collection of open-source libraries for high level network programming. [Boost]
 * [cpr](https://github.com/whoshuu/cpr) - A modern C++ HTTP requests library with a simple but powerful interface. Modeled after the Python Requests module. [MIT] [website](https://whoshuu.github.io/cpr/)
 * [Dyad.c](https://github.com/rxi/dyad) - Asynchronous networking for C. [MIT]
@@ -662,7 +665,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 ## API Design
 
 * [Beautiful Native Libraries](http://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
-* [Designing Qt-Style C++ APIs](http://doc.qt.digia.com/qq/qq13-apis.html)
+* [Designing Qt-Style C++ APIs](https://doc.qt.io/archives/qq/qq13-apis.html)
 
 ## Articles
 *Fantastic C/C++ related articles.*
@@ -751,7 +754,7 @@ A curated list of awesome C/C++ frameworks, libraries, resources, and shiny thin
 * [lists](https://github.com/jnv/lists) - List of (awesome) lists curated on GitHub.
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - A curated list of awesome awesomeness.
 * [awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists.
-* [Awesome C/C++](http://getawesomeness.com/get/cpp) - getAwesomeness() mirror.
+* [Awesome C/C++](https://getawesomeness.herokuapp.com/get/cpp) - getAwesomeness() mirror.
 * [free-programming-books](https://github.com/vhf/free-programming-books) - List of Freely Available Programming Books.
 * [Inqlude](http://inqlude.org/) - The Qt library archive.
 * [papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
